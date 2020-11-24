@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Practice
 {
@@ -32,18 +33,23 @@ namespace Practice
         {
             // 問題０１
             // 社員情報一覧から、「IDが1」の社員の名称を取得し、変数に格納すること
+            // ヒント：LinqのWhere, Single　を使用すれば。。。
 
             // 問題０２
             // 社員情報一覧から、「名称（Name）がGGGGG」の社員の入社年月日を取得し、変数に格納すること
+            // ヒント：LinqのWhere, Single　を使用すれば。。。
 
             // 問題０３
             // 社員情報一覧から、「入社年月日（JoinDate）が2019年10月1日」の社員の財産を取得し、変数に格納すること
+            // ヒント：LinqのWhere, Single　を使用すれば。。。
 
             // 問題０４
             // 社員情報一覧から、「財産（Money）が400」の社員のIDを取得し、変数に格納すること
+            // ヒント：LinqのWhere, Single　を使用すれば。。。
 
             // 問題０５
             // 社員情報一覧から、「財産が、300以上400未満」の社員の件数を取得し、変数に格納すること
+            // ヒント：LinqのWhere, Count　を使用すれば。。。
         }
 
         /// <summary>
